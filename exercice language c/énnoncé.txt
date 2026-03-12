@@ -1,6 +1,6 @@
 1) Calcul la somme de deux entiers
 
-2) Calcul la somme de 30 premieres termes
+2) trouver les 20 premier nombre premiers
 
 3) a) Calcule la somme des 30 premier terme de la suite: 
 
@@ -8,13 +8,13 @@
 	U1 = -4
         U = 2U(n-1)+3U(n-2)
 
-   b) trouver la 70 eme terme de la suite Un
+   b) trouver la 70-ème terme de la suite Un
 
 4) programme pour faire la somme de deux vecteur
 
 5) programme pour faire le produit de deux vecteur
 
-6) programme pour faire la somme de deux matrice
+6) programme pour faire le produit de deux matrice
 
 7) Programme qui inverse une chaine de charactère ex : MIT -> TIM
 
