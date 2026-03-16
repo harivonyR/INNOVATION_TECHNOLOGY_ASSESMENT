@@ -35,12 +35,16 @@ int nth_term(int n) {
         return -4;
     }
     
-    int Un_moins_2 = 3;  // U[0]
-    int Un_moins_1 = -4; // U[1]
-    int Un = 0;
+    int U0 = 3;
+    int U1 = -4;
+
+    int Un_moins_2 = U0;  // U[0]
+    int Un_moins_1 = U1; // U[1]
+    int Un = 0;          // delaclare
 
     for (int i = 2; i <= n; i++) {
         Un = 2 * Un_moins_1 + 3 * Un_moins_2;
+        printf("U%d = %d\n",i,Un);
         Un_moins_2 = Un_moins_1;
         Un_moins_1 = Un;
     }
